@@ -1,0 +1,26 @@
+{
+  "name": "Chat Bot",
+  "description": "AI Chat bot with Affiliate Plus API",
+  "repository": "https://github.com/TinuraD/Chat-Bot",
+  "logo": "https://telegra.ph/file/cee6b9c520057ccfe83e0.jpg",
+  "keywords": ["chatbot", "ai chatbot"],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Get your Bot token from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get API_ID from https://my.telegram.org/apps ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get API_HASH from https://my.telegram.org/apps",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
