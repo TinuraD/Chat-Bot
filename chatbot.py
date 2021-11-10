@@ -30,7 +30,7 @@ from googletrans import Translator
 bot = Client("Chatbot", 
                 bot_token=getenv("BOT_TOKEN"), 
                 api_id=getenv("API_ID"), 
-                api_hash=getenv("API_ID"))
+                api_hash=getenv("API_HASH"))
 
 tr = Translator()
 
