@@ -1,7 +1,7 @@
 # Telegram AI Chat Bot 💭
 
 - Pyrogram Based Telegram AI Chat bot
-- This is also users in [Bolt Backer](https://t.me/boltbackerbot) telegram bot.
+- This is also used in [Bolt Backer](https://t.me/boltbackerbot) telegram bot.
 
 ## Features
 - Chat bot with many Langaues.
